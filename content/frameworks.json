@@ -1,0 +1,144 @@
+{
+  "capturedAt": "2026-10-14",
+  "source": "Interlead Appraisal Connector - Create Externalreport.html, Filter by criteria dropdown",
+  "scopeNote": "These are the 28 top-level criteria present in the user's supplied file. Their presence does not establish a required evidence count or the school's detailed rubric.",
+  "frameworks": [
+    {
+      "name": "2026 Standards for the Teaching Profession",
+      "criteria": [
+        {
+          "interleadId": "290",
+          "originalText": "1 - PS 2026 - Te Tiriti o Waitangi partnership - Demonstrate commitment to tangata whenuatanga and Te Tiriti o Waitangi partnership in Aotearoa New Zealand."
+        },
+        {
+          "interleadId": "291",
+          "originalText": "2 - PS 2026 - Know the content and how to teach it - Understand how to design learning based on content, curriculum, and pedagogical knowledge."
+        },
+        {
+          "interleadId": "292",
+          "originalText": "3 - PS 2026 - Know the learner and the learning process - Understand the learning process and the diversity of learners’ strengths, needs, languages, cultures, identities, and interests."
+        },
+        {
+          "interleadId": "293",
+          "originalText": "4 - PS 2026 - Plan for and implement effective teaching and learning - Plan for learning, teach, and respond to learners during teaching to progress their learning at an appropriate depth and pace."
+        },
+        {
+          "interleadId": "294",
+          "originalText": "5 - PS 2026 - Create and maintain supportive and safe learning environments - Develop a culture where learners feel safe, have their needs met, and are focussed on learning, with appropriate use of equipment and technologies."
+        },
+        {
+          "interleadId": "295",
+          "originalText": "6 - PS 2026 - Assess, provide feedback, and report on learning - Use regular and consistent assessment to inform teaching and share information on learner progress."
+        },
+        {
+          "interleadId": "296",
+          "originalText": "7 - PS 2026 - Engage in professional learning - Improve professional capability through evidence-based reflection, professional learning, and engagement with colleagues."
+        },
+        {
+          "interleadId": "297",
+          "originalText": "8 - PS 2026 - Engage in productive professional relationships - Work constructively with colleagues, parents/caregivers, and the community to support the learning and wellbeing of each learner."
+        }
+      ]
+    },
+    {
+      "name": "King's College Domains",
+      "criteria": [
+        {
+          "interleadId": "107",
+          "originalText": "1 - Learning"
+        },
+        {
+          "interleadId": "108",
+          "originalText": "2 - Internationalism"
+        },
+        {
+          "interleadId": "109",
+          "originalText": "3 - Democracy"
+        },
+        {
+          "interleadId": "110",
+          "originalText": "4 - Environment"
+        },
+        {
+          "interleadId": "111",
+          "originalText": "5 - Adventure"
+        },
+        {
+          "interleadId": "112",
+          "originalText": "6 - Leadership"
+        },
+        {
+          "interleadId": "113",
+          "originalText": "7 - Service"
+        },
+        {
+          "interleadId": "114",
+          "originalText": "8 - Spirituality"
+        }
+      ]
+    },
+    {
+      "name": "Code of Professional Responsibility",
+      "criteria": [
+        {
+          "interleadId": "127",
+          "originalText": "1 - Commitment to the Teaching Profession."
+        },
+        {
+          "interleadId": "128",
+          "originalText": "2 - Commitment to Learners."
+        },
+        {
+          "interleadId": "129",
+          "originalText": "3 - Commitment to Parents / Caregivers and Families/Whanau."
+        },
+        {
+          "interleadId": "130",
+          "originalText": "4 - Commitment to Society."
+        }
+      ]
+    },
+    {
+      "name": "Tātaiako",
+      "criteria": [
+        {
+          "interleadId": "29",
+          "originalText": "1 - Wānanga - Participating with learners and communities in robust dialogue for the benefit of Māori learners’ achievement."
+        },
+        {
+          "interleadId": "30",
+          "originalText": "2 - Whanaungatanga - Actively engaging in respectful working relationships with Māori learners, parents and whānau, hapū, iwi and the Māori Community."
+        },
+        {
+          "interleadId": "31",
+          "originalText": "3 - Manaakitanga - Showing integrity, sincerity and respect towards Māori beliefs, languages and culture."
+        },
+        {
+          "interleadId": "32",
+          "originalText": "4 - Tangata Whenuatanga - Affirming Māori learners as Māori. Providing contexts for learning where the language, identity and culture of Māori learners and their whānau are affirmed."
+        },
+        {
+          "interleadId": "33",
+          "originalText": "5 - Ako - Taking responsibility for their own learning and that of Māori learners."
+        }
+      ]
+    },
+    {
+      "name": "Tapasā",
+      "criteria": [
+        {
+          "interleadId": "141",
+          "originalText": "1 - Turu #1 - Identities, languages and cultures"
+        },
+        {
+          "interleadId": "142",
+          "originalText": "2 - Turu #2 - Collaborative and respectful relationships and professional behaviour"
+        },
+        {
+          "interleadId": "143",
+          "originalText": "3 - Turu #3 - Effective Pacific pedagogies"
+        }
+      ]
+    }
+  ]
+}

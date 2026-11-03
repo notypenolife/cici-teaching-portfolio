@@ -1,0 +1,314 @@
+{
+  "first-lines": {
+    "cover": {
+      "galleryIndex": 0,
+      "fit": "cover",
+      "position": "42% 45%",
+      "thumbnail": "assets/covers/first-lines.svg",
+      "lines": [
+        "Imagination",
+        "to immersive",
+        "worlds."
+      ],
+      "label": "VR/AR / creative technologies",
+      "category": "Creative Technologies"
+    },
+    "feature": {
+      "galleryIndex": 0
+    },
+    "wideEvidence": [
+      2
+    ]
+  },
+  "debugging-together": {
+    "cover": {
+      "lines": [
+        "Think.",
+        "Trace.",
+        "Debug."
+      ],
+      "label": "Python / classroom practice",
+      "tone": "dark",
+      "galleryIndex": 1,
+      "fit": "contain"
+    },
+    "wideEvidence": [
+      0,
+      1,
+      2
+    ]
+  },
+  "pathways": {
+    "cover": {
+      "lines": [
+        "Making",
+        "learning",
+        "visible."
+      ],
+      "label": "AI / assessment",
+      "category": "Assessment and Reflection",
+      "galleryIndex": 0,
+      "fit": "contain"
+    },
+    "wideEvidence": [
+      0,
+      1,
+      2
+    ]
+  },
+  "as-understanding": {
+    "cover": {
+      "galleryIndex": 0,
+      "fit": "contain",
+      "position": "center",
+      "lines": [
+        "Learning",
+        "from AS",
+        "results."
+      ],
+      "label": "Cambridge AS / assessment"
+    },
+    "feature": {
+      "galleryIndex": 0
+    },
+    "wideEvidence": [
+      0
+    ]
+  },
+  "ncea-two": {
+    "cover": {
+      "galleryIndex": 0,
+      "fit": "cover",
+      "position": "50% 34%",
+      "thumbnail": "assets/covers/ncea-two.svg",
+      "lines": [
+        "Beyond",
+        "the headset."
+      ],
+      "label": "VR design / real audiences",
+      "category": "Creative Technologies"
+    },
+    "feature": {
+      "galleryIndex": 0
+    }
+  },
+  "ncea-three": {
+    "cover": {
+      "galleryIndex": 0,
+      "fit": "contain",
+      "position": "center",
+      "thumbnail": "assets/covers/ncea-three.svg",
+      "lines": [
+        "High standards.",
+        "Genuine care."
+      ],
+      "label": "Middlemore / boarding"
+    },
+    "feature": {
+      "galleryIndex": 0
+    }
+  },
+  "feedback-loop": {
+    "cover": {
+      "lines": [
+        "Another",
+        "pair of eyes."
+      ],
+      "label": "Peer observation / reflection",
+      "galleryIndex": 1,
+      "fit": "contain"
+    },
+    "wideEvidence": [
+      0,
+      1
+    ]
+  },
+  "learner-voice": {
+    "cover": {
+      "galleryIndex": 1,
+      "fit": "cover",
+      "position": "50% 44%",
+      "thumbnail": "assets/covers/learner-voice.svg",
+      "lines": [
+        "Beyond the",
+        "classroom."
+      ],
+      "label": "Tip Top / purposeful projects"
+    },
+    "feature": {
+      "galleryIndex": 0
+    },
+    "wideEvidence": [
+      3
+    ]
+  },
+  "te-reo": {
+    "cover": {
+      "lines": [
+        "Small steps.",
+        "Cultural",
+        "confidence."
+      ],
+      "label": "Cultural understanding / 2026",
+      "galleryIndex": 1,
+      "fit": "contain"
+    },
+    "wideEvidence": [
+      0,
+      1
+    ]
+  },
+  "pacific-voices": {
+    "cover": {
+      "lines": [
+        "Listen.",
+        "Reflect.",
+        "Refine."
+      ],
+      "label": "Year 9 coding / student voice",
+      "galleryIndex": 0,
+      "fit": "contain",
+      "position": "center"
+    },
+    "feature": {
+      "galleryIndex": 0
+    },
+    "wideEvidence": [
+      1,
+      2
+    ]
+  },
+  "access-to-learning": {
+    "cover": {
+      "galleryIndex": 1,
+      "fit": "contain",
+      "position": "center",
+      "thumbnail": "assets/covers/access-to-learning.svg",
+      "lines": [
+        "Different",
+        "starts, shared",
+        "ambition."
+      ],
+      "label": "Teaching / inclusive learning"
+    },
+    "feature": {
+      "galleryIndex": 1
+    },
+    "wideEvidence": [
+      0
+    ]
+  },
+  "middlemore": {
+    "cover": {
+      "galleryIndex": 0,
+      "fit": "cover",
+      "position": "55% 44%",
+      "thumbnail": "assets/covers/middlemore.svg",
+      "lines": [
+        "Finding",
+        "their feet."
+      ],
+      "label": "Middlemore / Year 11 mentoring"
+    },
+    "feature": {
+      "galleryIndex": 0
+    }
+  },
+  "family-partnership": {
+    "cover": {
+      "galleryIndex": 0,
+      "fit": "contain",
+      "position": "center",
+      "thumbnail": "assets/covers/family-partnership.svg",
+      "lines": [
+        "Rethinking",
+        "Year 11."
+      ],
+      "label": "Curriculum / connected pathways"
+    },
+    "feature": {
+      "galleryIndex": 0
+    }
+  },
+  "service-leadership": {
+    "cover": {
+      "lines": [
+        "Learning",
+        "through",
+        "mentoring."
+      ],
+      "label": "Associate teaching / 2025",
+      "category": "Pastoral Care and Mentoring",
+      "galleryIndex": 1,
+      "fit": "contain"
+    },
+    "wideEvidence": [
+      0,
+      1
+    ]
+  },
+  "responsible-digital": {
+    "cover": {
+      "lines": [
+        "Assessment",
+        "to curriculum."
+      ],
+      "label": "Cambridge AS / 2025 to 2026",
+      "category": "Assessment and Reflection",
+      "galleryIndex": 1,
+      "fit": "contain"
+    },
+    "wideEvidence": [
+      0,
+      1
+    ]
+  },
+  "professional-inquiry": {
+    "cover": {
+      "galleryIndex": 0,
+      "fit": "contain",
+      "position": "center",
+      "thumbnail": "assets/covers/professional-inquiry.svg",
+      "lines": [
+        "Exploring",
+        "Swift."
+      ],
+      "label": "Swift Playgrounds / professional learning"
+    },
+    "feature": {
+      "galleryIndex": 0
+    }
+  },
+  "purpose-belonging": {
+    "cover": {
+      "lines": [
+        "Understand.",
+        "Then build."
+      ],
+      "label": "AI / teaching and learning",
+      "tone": "dark",
+      "galleryIndex": 0,
+      "fit": "contain"
+    },
+    "wideEvidence": [
+      0,
+      1
+    ]
+  },
+  "try-something-new": {
+    "cover": {
+      "lines": [
+        "Notice.",
+        "Try.",
+        "Reflect."
+      ],
+      "label": "Professional learning / 2026",
+      "galleryIndex": 1,
+      "fit": "contain"
+    },
+    "wideEvidence": [
+      0,
+      1
+    ]
+  }
+}
