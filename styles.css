@@ -269,7 +269,7 @@ figcaption{font-size:var(--type-meta);line-height:1.5;color:var(--muted);padding
 .card-growth{--card-background:var(--card-growth)}
 .type-label,.type-title,.type-footer{flex-shrink:0}
 .cover-photo{position:absolute;inset:0;display:block;background:var(--card-background);opacity:0;pointer-events:none;transition:opacity 180ms ease-out}
-.practice-card:focus-visible .cover-photo{opacity:1}
+.practice-card:focus-visible .cover-photo,.practice-card.is-touch-preview .cover-photo{opacity:1}
 @media(hover:hover) and (pointer:fine){.practice-card:hover .cover-photo{opacity:1}}
 @media(min-width:561px) and (max-width:650px){
  .type-cover{padding:var(--space-2) var(--space-4)}

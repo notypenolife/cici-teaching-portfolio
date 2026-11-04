@@ -1,3 +1,52 @@
+// Touch screens preview a card on the first tap and follow its link on the next.
+function enableCardPreviews(root = document) {
+  let activeCard = null;
+  let lastPointer = null;
+  const cardAt = target => target?.closest?.('.practice-card');
+  const clearPreview = () => {
+    activeCard?.classList.remove('is-touch-preview');
+    activeCard = null;
+  };
+  root.addEventListener('pointerdown', event => {
+    lastPointer = null;
+    if (cardAt(event.target) !== activeCard) clearPreview();
+  }, {passive:true});
+  root.addEventListener('pointerup', event => {
+    lastPointer = {card:cardAt(event.target), type:event.pointerType, time:event.timeStamp};
+  }, {passive:true});
+  root.addEventListener('pointercancel', () => { lastPointer = null; });
+  root.addEventListener('click', event => {
+    const card = cardAt(event.target);
+    const pointer = lastPointer;
+    lastPointer = null;
+    if (!card || !card.querySelector('.cover-photo img') || event.defaultPrevented ||
+        event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    // Older Safari click events omit pointerType; pair them with their pointerup.
+    // Keyboard and assistive-technology activation continue to open the link.
+    if (event.detail === 0 && !event.pointerType) return;
+    const pointerType = event.pointerType ||
+      (pointer?.card === card && event.timeStamp - pointer.time < 800 ? pointer.type : '');
+    if (pointerType !== 'touch' && pointerType !== 'pen') return;
+    if (activeCard === card) {
+      clearPreview();
+      return;
+    }
+    event.preventDefault();
+    clearPreview();
+    activeCard = card;
+    card.classList.add('is-touch-preview');
+  });
+  root.addEventListener('keydown', event => {
+    lastPointer = null;
+    if (event.key === 'Escape') clearPreview();
+  });
+  root.addEventListener('focusin', event => {
+    if (cardAt(event.target) !== activeCard) clearPreview();
+  });
+  root.defaultView?.addEventListener('hashchange', clearPreview);
+  root.defaultView?.addEventListener('pagehide', clearPreview);
+}
+enableCardPreviews();
 const main = document.querySelector('main');
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const e = escapeHTML;
